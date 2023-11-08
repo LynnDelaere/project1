@@ -1,0 +1,205 @@
+/*background color*/
+html {
+    background-color: rgb(255, 255, 230);
+    padding-top: 1em;
+    color: rgb(38, 38, 38);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*style body*/
+body {
+    background-color: rgb(204, 255, 153);
+    width: 90%;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*style header nog mooie banner zoeken*/
+.banner{
+    background-image: url(../images/banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 3em;
+    color: rgb(68, 204, 0);
+}
+
+/*style nav bar*/
+.navigationBar{
+    background-color: rgb(204, 255, 153);
+    text-align: center;
+}
+.navigationBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigationBar li{
+    display: inline;
+}
+.navigationBar li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.3em;
+    color: rgb(68, 204, 0);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.navigationBar li a:hover{
+    opacity: 0.5;
+}
+/*style h2 overal*/
+.container h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(68, 204, 0);
+    margin: 0;
+    padding: 0.2em;
+}
+/*style section*/
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.text{
+    flex-basis: 60%;
+}
+/*style p section*/
+.text p{
+    padding: 0.5em;
+    margin: 0;
+}
+/*style image section*/
+.image{
+    flex-basis: 40%;
+    text-align: center;
+    
+}
+.section img{
+    width: 80%;
+    height: 20em;
+    border: 0.1em solid rgb(59, 179, 0);
+    border-radius: 0.9em;
+    padding: 0.2em;
+}
+.container:nth-child(odd){
+    background-color: rgb(255, 255, 204);
+    text-align: left;
+}
+/*style button page up*/
+.button{
+    color: rgb(59, 179, 0);
+    border: none;
+    background-color:rgba(13, 13, 13, 0) ;
+    font-size: 1.2em;
+    opacity: 0.3;
+    margin: 0.2em;
+}
+.button:hover{
+    opacity: 1;
+}
+/*style grid projects*/
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5em;
+}
+.grid-item{
+    padding: 0.2em;
+    text-align: center;
+}
+.grid-item h3{
+    color: rgb(68, 204, 0);
+    margin: 0;
+    padding: 0.5em;
+}
+.grid-item p{
+    padding: 0.2em;
+}
+.grid-item img{
+    align-self: center;
+    width: 95%;
+    height: 100%;
+    border: 0.1em solid rgb(59, 179, 0);
+    border-radius: 0.9em;
+    padding: 0.2em;
+}
+/*style form*/
+.row{
+    display: flex;
+    margin: 0.5em;
+    align-content: space-between;
+}
+
+.columnLeft{
+    width: 25%;
+    padding: 0.5em;
+    text-align: right;
+    border-right: 0.1em solid rgb(59, 179, 0);
+}
+.columnLeft h3{
+    color: rgb(68, 204, 0);
+    margin: 0;
+    padding: 0.3em;
+}
+.columnLeft p{
+    padding: 0.2em;
+}
+.columnLeft a{
+    text-decoration: none;
+    color:rgb(38, 38, 38);
+}
+.columnLeft i{
+    padding: 0.1em;
+}
+.columnRight{
+    width: 70%;
+    padding: 0.5em;
+}
+
+.input-container{
+    position: relative;
+}
+.input-container i{
+    position: absolute;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+}
+.input-field {
+    width: 100%;
+    padding: 0.5em;
+    padding-left: 1.875em; 
+    margin-bottom: 0.625em;
+    border: 1px solid rgb(59, 179, 0);
+    border-radius: 5px;
+}
+.submit{
+    background-color: rgb(59, 179, 0);
+    color: rgb(255, 255, 204);
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.0em;
+}
+.submit:hover{
+    opacity: 0.5;
+}
+/*style footer*/
+.footer{
+    background-color: rgb(255, 255, 153);
+    text-align: center;
+    padding: 0.5em;
+    color: rgb(68, 204, 0);
+    font-size: smaller;
+}
+
+
+
